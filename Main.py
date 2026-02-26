@@ -64,6 +64,7 @@ upper_letters = string.ascii_uppercase
 for letter in upper_letters:
     letters.append(letter)
 
+# GUI
 window = Tk()
 window.geometry("400x100")
 window.title("Caesar Cipher")
